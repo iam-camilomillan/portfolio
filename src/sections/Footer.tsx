@@ -17,7 +17,7 @@ const Footer = () => {
           transition: { duration: 0.5, delay: 0.55 },
         }}
         viewport={{ once: true }}
-        className="border-clr-five dark:border-clr-one mx-auto max-w-7xl border-t border-opacity-50 py-8 text-center"
+        className="mx-auto max-w-7xl border-t border-clr-five border-opacity-25 py-8 text-center dark:border-clr-one"
       >
         <span className="opacity-80">{t("footer.text_one")} </span>
         <a
@@ -37,7 +37,7 @@ const Footer = () => {
         </a>{" "}
         <span className="opacity-80">&#8226; </span>
         <a
-          href="https://github.com/CoGuisMod/my-portfolio"
+          href="https://github.com/iam-camilomillan/portfolio"
           target="_blank"
           className="custom-underline"
         >

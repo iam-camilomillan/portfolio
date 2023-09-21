@@ -138,7 +138,7 @@ const Navbar = () => {
             </a>
 
             {/* Github */}
-            <a href="https://github.com/CoGuisMod" target="_blank">
+            <a href="https://github.com/iam-camilomillan" target="_blank">
               <FaGithub />
             </a>
           </motion.div>
@@ -146,7 +146,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop navbar */}
-      <div className="mx-auto hidden max-w-7xl items-center justify-between border-b border-clr-five border-opacity-50 py-4 dark:border-clr-one xs:flex">
+      <div className="mx-auto hidden max-w-7xl items-center justify-between border-b border-clr-five border-opacity-25 py-4 dark:border-clr-one xs:flex">
         {/* Navigation links */}
         <nav className="flex gap-x-4">
           {/* About */}
@@ -189,7 +189,7 @@ const Navbar = () => {
 
             {/* Github */}
             <a
-              href="https://github.com/CoGuisMod"
+              href="https://github.com/iam-camilomillan"
               target="_blank"
               className="text-2xl transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 active:duration-0"
             >

@@ -49,7 +49,7 @@ export default function Home() {
         <Hero />
 
         {/* Divider */}
-        <div className="mx-auto h-px w-2/3 border-b border-clr-five border-opacity-50 dark:border-clr-one" />
+        <div className="mx-auto h-px w-2/3 border-b border-clr-five border-opacity-25 dark:border-clr-one" />
 
         {/* About Me */}
         <About />

@@ -162,7 +162,7 @@ const Contact = () => {
               }}
               whileTap={{ scale: 1, transition: { duration: 0 } }}
               viewport={{ once: true }}
-              href="https://github.com/CoGuisMod"
+              href="https://github.com/iam-camilomillan"
               target="_blank"
               className="text-2xl"
             >
