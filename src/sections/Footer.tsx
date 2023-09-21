@@ -17,7 +17,7 @@ const Footer = () => {
           transition: { duration: 0.5, delay: 0.55 },
         }}
         viewport={{ once: true }}
-        className="mx-auto max-w-7xl border-t border-clr-five border-opacity-25 py-8 text-center dark:border-clr-one"
+        className="mx-auto max-w-7xl border-t border-clr-five/25 py-8 text-center dark:border-clr-one/25"
       >
         <span className="opacity-80">{t("footer.text_one")} </span>
         <a

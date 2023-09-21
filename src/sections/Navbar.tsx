@@ -51,7 +51,7 @@ const Navbar = () => {
       className="fixed z-20 w-full bg-clr-two px-8 dark:bg-clr-five"
     >
       {/* Mobile navbar */}
-      <div className="mx-auto flex items-center justify-end border-b border-clr-five border-opacity-50 py-4 dark:border-clr-one xs:hidden">
+      <div className="mx-auto flex items-center justify-end border-b border-clr-five/25 py-4 dark:border-clr-one/25 xs:hidden">
         {/* Toogle navbar button */}
         <div className="z-30 flex items-center justify-center">
           {isOpen ? (
@@ -146,7 +146,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop navbar */}
-      <div className="mx-auto hidden max-w-7xl items-center justify-between border-b border-clr-five border-opacity-25 py-4 dark:border-clr-one xs:flex">
+      <div className="mx-auto hidden max-w-7xl items-center justify-between border-b border-clr-five/25 py-4 dark:border-clr-one/25 xs:flex">
         {/* Navigation links */}
         <nav className="flex gap-x-4">
           {/* About */}
