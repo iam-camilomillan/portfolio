@@ -28,8 +28,8 @@ const projectsEn = [
     tags: ["Next.js", "Tailwind", "tRPC", "Zod"],
     description:
       "Look for characters, locations and episodes from the Rick and Morty series. Content from the Rick and Morty API.",
-    link: "https://rick-and-morty-wiki-camilomillan.vercel.app/",
-    repository: "https://github.com/CoGuisMod/rick-and-morty-wiki",
+    link: "https://rickandmorty-wiki-camilomillan.vercel.app/",
+    repository: "https://github.com/iam-camilomillan/rickandmorty-wiki",
   },
 ];
 
@@ -49,8 +49,8 @@ const projectsEs = [
     tags: ["Next.js", "Tailwind", "tRPC", "Zod"],
     description:
       "Encuentra personajes, localizaciones y episodios de la serie animada Rick y Morty. Contenido obtenido de Rick and Morty API.",
-    link: "https://rick-and-morty-wiki-camilomillan.vercel.app/",
-    repository: "https://github.com/CoGuisMod/rick-and-morty-wiki",
+    link: "https://rickandmorty-wiki-camilomillan.vercel.app/",
+    repository: "https://github.com/iam-camilomillan/rickandmorty-wiki",
   },
 ];
 
