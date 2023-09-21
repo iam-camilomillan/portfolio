@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-clr-secondary-one text-clr-primary-two dark:bg-clr-primary-two dark:text-clr-primary-one;
+}
