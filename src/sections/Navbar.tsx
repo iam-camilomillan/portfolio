@@ -46,12 +46,12 @@ const Navbar = () => {
 
   return (
     <motion.header
-      initial={{ y: -64 }}
-      animate={{ y: 0, transition: { duration: 0.5, delay: 0.35 } }}
-      className="bg-clr-two dark:bg-clr-five fixed z-20 w-full px-8"
+      initial={{ opacity: 0, y: -64 }}
+      animate={{ opacity: 1, y: 0, transition: { duration: 0.5, delay: 0.35 } }}
+      className="fixed z-20 w-full bg-clr-two px-8 dark:bg-clr-five"
     >
       {/* Mobile navbar */}
-      <div className="border-clr-five dark:border-clr-one mx-auto flex items-center justify-end border-b border-opacity-50 py-4 xs:hidden">
+      <div className="mx-auto flex items-center justify-end border-b border-clr-five border-opacity-50 py-4 dark:border-clr-one xs:hidden">
         {/* Toogle navbar button */}
         <div className="z-30 flex items-center justify-center">
           {isOpen ? (
@@ -68,7 +68,7 @@ const Navbar = () => {
         <motion.div
           variants={variantMenuContainer}
           animate={isOpen ? "open" : "closed"}
-          className={`bg-clr-three absolute -right-2/3 top-0 flex h-screen w-2/3 flex-col items-center justify-around py-16 transition-transform duration-200 ease-in-out ${
+          className={`absolute -right-2/3 top-0 flex h-screen w-2/3 flex-col items-center justify-around bg-clr-three py-16 transition-transform duration-200 ease-in-out ${
             isOpen ? "-translate-x-full" : ""
           }`}
         >
@@ -109,7 +109,7 @@ const Navbar = () => {
             onClick={() => {
               setIsOpen(false);
             }}
-            className="bg-clr-one text-clr-five dark:text-clr-one dark:bg-clr-five px-2 py-1 text-2xl font-medium"
+            className="bg-clr-one px-2 py-1 text-2xl font-medium text-clr-five dark:bg-clr-five dark:text-clr-one"
           >
             {t("navbar.resume")}
           </motion.a>
@@ -146,7 +146,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop navbar */}
-      <div className="border-clr-five dark:border-clr-one mx-auto hidden max-w-7xl items-center justify-between border-b border-opacity-50 py-4 xs:flex">
+      <div className="mx-auto hidden max-w-7xl items-center justify-between border-b border-clr-five border-opacity-50 py-4 dark:border-clr-one xs:flex">
         {/* Navigation links */}
         <nav className="flex gap-x-4">
           {/* About */}
@@ -201,7 +201,7 @@ const Navbar = () => {
           <a
             href={t("navbar.resume_link")}
             download={true}
-            className="bg-clr-five dark:bg-clr-one dark:text-clr-five text-clr-one px-2 py-1 font-medium transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 active:duration-0"
+            className="bg-clr-five px-2 py-1 font-medium text-clr-one transition-transform duration-200 ease-in-out hover:scale-110 active:scale-100 active:duration-0 dark:bg-clr-one dark:text-clr-five"
           >
             {t("navbar.resume")}
           </a>
