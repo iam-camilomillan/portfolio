@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Résumé",
+    "resume_link": "/documents/cv_en.pdf"
+  },
+  "hero": {
+    "position": "Full Stack Developer"
+  },
+  "about": {
+    "title": "Some about me",
+    "paragraph_one": "Hey! What's up? I'm Camilo, a 22-year-old technology enthusiast from Colombia. My passion for technology has driven me to become a self-taught Full Stack Developer, and to learn some things about UI/UX design.",
+    "paragraph_two": "I am a student majoring in IT at the university. Some of my other passions include reading, eating, and going to the gym. I consider myself someone who is well-organized and a bit of a perfectionist."
+  },
+  "projects": {
+    "title": "Selected projects"
+  },
+  "contact": {
+    "title": "Contact",
+    "git_button": "Get in touch",
+    "socials_title": "Socials",
+    "socials_text": "If you want to know me some more, take a look at my social media.",
+    "resume_title": "Résumé",
+    "resume_text": "Take a look at my CV, feel free to contact me if i meet your requirements.",
+    "resume_btn_text": "Get CV"
+  },
+  "footer": {
+    "text_one": "Built with",
+    "text_two": "and",
+    "repository_text": "Project repository."
+  }
+}

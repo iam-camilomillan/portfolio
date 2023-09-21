@@ -1,0 +1,34 @@
+{
+  "navbar": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "resume": "Currículum",
+    "resume_link": "/documents/cv_es.pdf"
+  },
+  "hero": {
+    "position": "Desarrollador Full Stack"
+  },
+  "about": {
+    "title": "Un poco sobre mí",
+    "paragraph_one": "¡Hola! ¿Qué tal? Soy Camilo, un apasionado de la tecnología de 22 años de Colombia. Mi amor por la tecnología me ha impulsado a aprender sobre desarrollo Full Stack de forma autodidacta y un poco sobre diseño UI/UX.",
+    "paragraph_two": "Estoy estudiando IT en la universidad. Algunas de mis otras pasiones incluyen leer, comer e ir al gimnasio. Me considero alguien muy organizado y un poco perfeccionista."
+  },
+  "projects": {
+    "title": "Proyectos preferidos"
+  },
+  "contact": {
+    "title": "Contacto",
+    "git_button": "Ponte en contacto",
+    "socials_title": "Redes sociales",
+    "socials_text": "Si me quieres conocer un poco más, puedes echar un vistazo aquí.",
+    "resume_title": "Currículum",
+    "resume_text": "Échale un ojo a mi hoja de vida, si cumplo tus requisitos, contáctame.",
+    "resume_btn_text": "Descargar PDF"
+  },
+  "footer": {
+    "text_one": "Construido con",
+    "text_two": "y",
+    "repository_text": "Repositorio del proyecto."
+  }
+}
