@@ -85,7 +85,7 @@ const Projects = () => {
   }, [i18n]);
 
   return (
-    <section id="projects" className="bg-clr-five px-8 py-16 dark:bg-clr-two">
+    <section id="projects" className="bg-clr-five px-8 py-20 dark:bg-clr-two">
       <motion.div
         variants={variantGridContanier}
         initial="hidden"

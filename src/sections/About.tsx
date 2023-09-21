@@ -86,7 +86,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="px-8 py-16">
+    <section id="about" className="px-8 py-20">
       <div className="mx-auto grid max-w-7xl grid-cols-12">
         {/* Left side */}
         <div className="col-span-12 flex flex-col justify-center sm:col-span-5">

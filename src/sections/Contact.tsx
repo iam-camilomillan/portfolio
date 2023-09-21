@@ -12,7 +12,7 @@ const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="px-8 py-16">
+    <section id="contact" className="px-8 py-20">
       <div className="mx-auto grid max-w-7xl grid-cols-12 justify-center">
         {/* Title */}
         <motion.h2
@@ -45,7 +45,7 @@ const Contact = () => {
             whileHover={{ scale: 1.1, transition: { duration: 0.2 } }}
             whileTap={{ scale: 1, transition: { duration: 0 } }}
             href="mailto:iam.camilomillan.com"
-            className="bg-clr-three flex h-32 w-32 items-center rounded-full text-center text-xl font-medium uppercase"
+            className="flex h-32 w-32 items-center rounded-full bg-clr-three text-center text-xl font-medium uppercase"
           >
             {t("contact.git_button")}
           </motion.a>

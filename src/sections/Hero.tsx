@@ -10,7 +10,7 @@ const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="h-screen px-8 py-16">
+    <section className="h-screen px-8 pt-16">
       <div className="relative mx-auto flex h-full w-full max-w-6xl items-center justify-start sm:justify-center">
         <div className="pl-2">
           {/* First name */}
